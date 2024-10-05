@@ -29,8 +29,8 @@ export default function TeamGenerator() {
 
   const generateTeams = () => {
     const shuffled = [...players].sort(() => 0.5 - Math.random())
-    let team1: Player[] = []
-    let team2: Player[] = []
+    const team1: Player[] = []
+    const team2: Player[] = []
     let sum1 = 0
     let sum2 = 0
 
